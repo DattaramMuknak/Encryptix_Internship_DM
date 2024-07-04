@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas.com</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="icon" href="canvas.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="canvas5.png" alt="Rainbow Paintings Logo">
+                <h1>Canvas.com</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Discover the Art of Canvas Gallery.</h1>
+                <p>Bringing colors to life through art.</p>
+                <a href="#gallery" class="btn">Explore Gallery</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Canvas.com, where we transform spaces through exceptional painting services. Our skilled team of painters and artists is dedicated to exceeding your expectations, adding vibrant color and life to your home or business. We specialize in residential painting, creating welcoming and personalized spaces both inside and out, and commercial painting, enhancing your brand image and creating positive environments. Our custom finishes including murals, faux finishes, and decorative painting ensure unique, standout results.</p><p>Committed to sustainability, we offer eco-friendly painting options that are safe for your family, employees, and the planet. With years of experience, our team uses only the highest quality paints and materials for long-lasting, beautiful finishes. Customer satisfaction is our top priority; we work closely with you from consultation to final walkthrough to ensure flawless execution and meticulous attention to detail. Founded on a love for art and dedication to excellence, Canvas.com has grown into a trusted industry name.</p><p> Ready to bring your vision to life? Contact us today and experience the difference that quality, creativity, and dedication can make.
+
+</p>
+        </section><hr>
+
+        <section id="gallery" class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="monalisa1.png" alt="Painting 1">
+                    <h3>Monalisa</h3>
+                    <p>By: Leonardo da Vinci</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="van gosh.png" alt="Painting 2">
+                    <h3>Sea in Night</h3>
+                    <p>By: Vincent van Gogh</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="flower.png" alt="Painting 3">
+                    <h3>Flower Pot</h3>
+                    <p>By: Leonardo da Vinci</p>
+                </div>
+                <!-- Add more gallery items as needed -->
+            </div>
+        </section><hr>
+
+        <section id="services" class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Custom Commissions</h3>
+                    <p>At Canvas.com, we excel in creating unique custom commissions tailored to your vision. Whether you desire a personalized mural, bespoke faux finishes, or intricate decorative painting, our skilled artists will bring your ideas to life. Perfect for enhancing any home, office, or commercial space, our custom artworks are crafted with meticulous attention to detail and high-quality materials. We collaborate closely with you from initial concept to final execution, ensuring every detail aligns with your vision. Ready to transform your space? Contact us today to discuss your custom commission and let our artistry make your vision a reality.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Art Consultation</h3>
+                    <p>At Canvas.com, we offer expert art consultation services to help you select the perfect pieces for your space. Whether you’re looking to enhance your home, office, or commercial environment, our experienced consultants work closely with you to understand your aesthetic preferences and design goals. We provide personalized recommendations and curate artwork that complements your style and decor, ensuring a cohesive and inspiring atmosphere. From initial consultation to final installation, we guide you through every step of the process. Contact us today to schedule your art consultation and discover how we can transform your space with curated art.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Workshops and Classes</h3>
+                    <p>At Canvas.com, we offer engaging workshops and classes designed to unleash your creativity and enhance your painting skills. Whether you’re a beginner or an experienced artist, our expert instructors provide personalized guidance and hands-on instruction in a supportive environment. Our diverse range of classes covers various techniques and styles, allowing you to explore and develop your artistic abilities. Perfect for individuals, groups, or team-building events, our workshops are a great way to learn, have fun, and connect with fellow art enthusiasts. Join us today to experience the joy of painting and take your creativity to new heights.</p>
+                </div>
+            </div>
+        </section><hr>
+
+        <section id="contact" class="container">
+            <div id="para">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Canvas.com. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

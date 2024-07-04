@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dattaram Muknak Profile</title>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icon link -->
+    <link rel="stylesheet" href="portfolio2.css">
+    <!-- Social Icon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header class="header-sec">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label class="logo">D<span>M</span></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>I'm Dattaram Muknak</h1>
+            <h2>Web Designer</h2>
+            <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/dattaram-muknak/">Hire Me</a>
+                <a href="mailto:dattarammuknakwork@gmail.com">Let's Talk</a>
+            </div>
+        </div>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=61560969423614"><i class='bx bxl-facebook'></i></a>
+            <a href="https://github.com/DattaramMuknak"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/dattaram-muknak/"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Projects</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <iframe src="http://127.0.0.1:3000/Projects/landing.html#contact" width="500px" height="400px" alt="Painting 1"></iframe>
+                <h3>Canvas.com Landing Page</h3>
+                <p><h5>Project description :-</h5>Welcome to our Art Gallery, where you can explore a diverse collection of paintings from classical to contemporary styles. Discover masterpieces by renowned and emerging artists, each piece carefully curated to inspire and captivate. Immerse yourself in a world of creativity, color, and emotion.</p>
+                <a href="http://127.0.0.1:3000/Projects/landing.html">Click here to see project</a>
+            </div>
+            <div class="service-item">
+                <img src="calculator.png" alt="Painting 1">
+                <h3>Calculator</h3>
+                <p><h5>Project description :-</h5>Welcome to our Calculator Page, your go-to resource for quick and accurate calculations. Whether you need basic arithmetic, advanced math functions, or financial calculations, our user-friendly tools are designed to meet your needs. Simplify your calculations and save time with our reliable and efficient online calculator.</p>
+                <a href="http://127.0.0.1:3000/Projects/Calculator.html">Click here to see project</a>
+            </div>
+            
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="gallery-item">
+            <img src="Profile.png" alt="Painting 1">
+        </div>
+        <p><a href="Dattaram_Muknak_Profile.pdf" target="_blank">Download my resume</a></p>
+    </section>
+
+    <section>
+        <div id="contact">
+        <h2>Contact Me</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Dattaram. All rights reserved.</p>
+</footer>
+</body>
+</html>
